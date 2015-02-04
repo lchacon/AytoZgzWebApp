@@ -1,5 +1,8 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<form id="myForm" action="./MiPrimerServlet" method="get">
+	Id:<input type="text" name="id">
+	<input type="submit" value="Enviar">
+</form>
 </body>
 </html>
